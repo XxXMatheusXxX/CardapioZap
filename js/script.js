@@ -98,7 +98,7 @@ function enviawhats() {
     let produtos = ListaProdutos();
 
     const whatsappUrl =
-        `https://wa.me/55159972383912?text=${encodeURIComponent(mensagem + produtos + `\nTotal: R$ ${totalValor},00`)}`;
+        `https://wa.me/5515991244100?text=${encodeURIComponent(mensagem + produtos + `\nTotal: R$ ${totalValor},00`)}`;
     
     localStorage.clear();
     produtosCarrinho = [];
